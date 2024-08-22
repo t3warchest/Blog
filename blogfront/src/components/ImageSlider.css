@@ -1,0 +1,64 @@
+.slider {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  object-fit: fill;
+  background-color: aliceblue;
+  z-index: 5;
+}
+
+.paper-container {
+  /* margin-top: 700px;*/
+  position: absolute;
+  background-color: purple;
+  height: 100px;
+  width: 100px;
+  bottom: -40px;
+  right: -50px;
+  transform: rotate(-5deg);
+  display: flex; /* For centering the text */
+  justify-content: center; /* For centering the text */
+  align-items: center; /* For centering the text */
+  font-size: 12px; /* Text size */
+}
+
+.paper {
+  height: 100px;
+  width: 100px;
+  display: block;
+}
+
+.quote-text {
+  position: absolute;
+  color: black;
+  font-size: 14px; /* Adjust font size as needed */
+  text-align: center;
+  font-family: "Homemade Apple", cursive;
+}
+
+.arrowLeft {
+  position: absolute;
+  margin-top: 200px;
+  z-index: 2;
+  color: white;
+  transform: translate(-50%, 0);
+  transition: 0.5s;
+}
+
+.arrowLeft:hover {
+  transform: translate(-60%, 0) scale(130%);
+}
+
+.arrowRight {
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 716px;
+  z-index: 2;
+  color: white;
+  transform: translate(50%, 0);
+  transition: 0.5s;
+}
+
+.arrowRight:hover {
+  transform: translate(60%, 0) scale(130%);
+}

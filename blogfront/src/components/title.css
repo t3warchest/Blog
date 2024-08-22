@@ -1,0 +1,36 @@
+.header {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  aspect-ratio: 6/7;
+  position: relative;
+  margin-left: 40px;
+  margin-top: 40px;
+  /* text-align: center; */
+}
+.title-nav-container {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-image: linear-gradient(
+    0deg,
+    rgb(40, 39, 39),
+    #2f2e2e,
+    rgb(59, 58, 58)
+  );
+  color: white;
+  text-decoration: none;
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-nav-container a {
+  color: aliceblue;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 3rem;
+
+  text-decoration: none;
+}

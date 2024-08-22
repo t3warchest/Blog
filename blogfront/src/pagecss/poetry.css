@@ -1,0 +1,68 @@
+.poetry-container {
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tabs-container {
+  position: absolute;
+  width: 500px;
+  height: 200px;
+  top: 40px;
+  left: 30%;
+  display: flex;
+  flex-direction: row;
+  gap: 3em;
+  justify-content: center;
+  align-items: center;
+}
+
+.tab {
+  height: 50px;
+  width: 80px;
+  background-color: aliceblue;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+  box-shadow: 1px 1px 7px black;
+}
+
+.tab.active {
+  background: #af6a6a;
+}
+
+.poetry-content-and-tabs {
+  width: 100%;
+  height: 100%;
+  background-color: aqua;
+}
+/* 
+
+.tabs {
+  display: flex;
+  gap: 10px;
+  position: absolute;
+  top: -30px;
+  left: 200px;
+}
+
+.tab {
+  background: #f1f1f1;
+  border: 1px solid #ccc;
+  border-radius: 4px 4px 0 0;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.tab.active {
+  background: #ffffff;
+  border-bottom: none;
+}
+
+.content {
+  padding: 10px;
+  height: 100%;
+  overflow-y: auto;
+} */
